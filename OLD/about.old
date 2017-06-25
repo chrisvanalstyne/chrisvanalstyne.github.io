@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Sample Post</title>
+    <title>Clean Blog - About</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -37,6 +37,13 @@
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+            </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -62,61 +69,30 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/post-bg.jpg')">
+    <header class="intro-header" style="background-image: url('img/about-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="post-heading">
-                        <h1>Finding That Perfect Muffin</h1>
-                        <h2 class="subheading">The search may be hard, but ever so tasty</h2>
-                        <span class="meta">Posted by <a href="about.html">Me</a> on June 24, 2017</span>
+                    <div class="page-heading">
+                        <h1>About Me</h1>
+                        <hr class="small">
+                        <span class="subheading">This is what I do.</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Post Content -->
-    <article>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p>A muffin is an individual-sized, baked quick bread product.</p>
-
-                    <p>Muffins in the United States are similar to cupcakes in size and cooking methods, the main difference being that cupcakes tend to be sweet desserts using cake batter and which are often topped with sugar frosting. Muffins are available in both savory varieties, such as cornmeal and cheese muffins, or sweet varieties such as blueberry, chocolate chip, lemon or banana flavours. Muffins are often eaten as a breakfast food. Coffee may be served to accompany muffins. Fresh baked muffins are sold by bakeries, donut shops and some fast food restaurants and coffeehouses. Factory baked muffins are sold at grocery stores and convenience stores and they are also served in some coffee shops and cafeterias.</p>
-
-                    <p>Outside the United Kingdom, an English muffin is a flatter disk-shaped, typically unsweetened bread of English origin. These muffins are popular in Commonwealth countries and the United States. English muffins are often served toasted for breakfast. English muffins may be served with butter or margarine. English muffins may be topped with sweet toppings, such as jam or honey, or savoury toppings (e.g., round sausage, cooked egg, cheese or bacon). English muffins are typically eaten as a breakfast food.</p>
-
-                    <p>Recipes for quick bread muffins are common in 19th-century American cookbooks. Recipes for yeast-based muffins, which were sometimes called "common muffins" or "wheat muffins" in 19th-century American cookbooks, can be found in much older cookbooks. In her Boston Cooking-School Cook Book, Fannie Farmer gave recipes for both types of muffins, both those that used yeast to raise the dough and those that used a quick bread method, using muffin rings to shape the English muffins. Farmer indicated that stove top "baking", as is done with yeast dough, was a useful method when baking in an oven was not practical.</p>
-
-                    <h2 class="section-heading">The Perfect Muffin</h2>
-
-                    <p>The perfect muffin is the one to find. It must be moist, yet thouroughly baked, prefereably with a glazed mufin top that may be provide an ever-so-slight crunch when bit</p>
-
-                    <p>To find the perfect muffin, one must search places frequented by muffins. Start with bakeries and local brunch spots</p>
-
-                    <blockquote>I found my favorite muffin while waiting in line to get brunch. Quite the find! It was a chocolate chip cream cheese muffin, still warm and melty choclate from the oven. It was divine!</blockquote>
-
-                    <p>It's best to start the search sooner than later. Best of luck!</p>
-
-                    <h2 class="section-heading">The Hazards of Muffins</h2>
-
-                    <p>Be forewarned! Once you have muffin, you ain't stopping for nothin'!</p>
-
-                    <a href="#">
-                        <img class="img-responsive" src="img/post-sample-image.jpg" alt="">
-                    </a>
-                    <span class="caption text-muted">This batch of freash blueberry muffins can keep you occupied for hours with their tantilizing muffinness</span>
-
-                    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-                    <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-                    <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
-                </div>
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>
             </div>
         </div>
-    </article>
+    </div>
 
     <hr>
 
